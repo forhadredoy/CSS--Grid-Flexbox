@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  flex-wrap: wrap;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  height: 300px;
+  flex-basis: 200px;
+  background: rgb(1, 56, 63);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 30px;
+}
+.one {
+  order: 2;
+}
+.four {
+  order: 3;
+}
